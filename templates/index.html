@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Legislative Assembly Search Engine</title>
+</head>
+<body>
+    <h1>Legislative Assembly Search Engine</h1>
+    <form action="/search" method="POST">
+        <input type="text" name="query" placeholder="Enter your question" required>
+        <button type="submit">Search</button>
+    </form>
+    {% if query %}
+        <h2>Your Question:</h2>
+        <p>{{ query }}</p>
+    {% endif %}
+    {% if response %}
+        <h2>Response:</h2>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
