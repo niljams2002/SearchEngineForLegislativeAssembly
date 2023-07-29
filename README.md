@@ -1,4 +1,4 @@
-# Legislative Assembly Search Engine
+# Search Engine for Question Hour in Legislative Assembly  
 
 This is a proof of concept search engine application that allows users to ask questions to a ministry in the domain of Legislative Assembly. The application utilizes natural language processing techniques to determine if a similar question has been asked before and provide the corresponding answer.
 
